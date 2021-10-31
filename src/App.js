@@ -10,6 +10,7 @@ import ManageAllBooking from './Components/DashBoard/ManageAllBooking/ManageAllB
 import Login from './Components/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import NotFound from './Components/NotFound/NotFound';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -63,6 +64,9 @@ function App() {
 
 
         </Switch>
+
+        {/* footer  */}
+        <Footer></Footer>
       </Router>
      
       </AuthProvider>
