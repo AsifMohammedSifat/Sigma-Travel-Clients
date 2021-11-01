@@ -5,10 +5,9 @@ const Services = () => {
     const [services,setServices]=useState([{img:"",price:"",description:"",name:"",days:"",night:""}]);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://hidden-wave-70818.herokuapp.com/services')
         .then(res=>res.json())
         .then(data=>setServices(data));
-        // setLoading(false);
     },[])
     return (
         <div>

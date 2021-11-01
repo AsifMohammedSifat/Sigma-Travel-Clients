@@ -12,7 +12,7 @@ const ManageAllBooking = () => {
   useEffect(() => {
     document.title = "Admin Panel | All Bookings";
     window.scrollTo(0, 0);
-    fetch("http://localhost:5000/allBookings")
+    fetch("https://hidden-wave-70818.herokuapp.com/allBookings")
       .then((res) => res.json())
       .then((data) => {
         setOrderData(data);

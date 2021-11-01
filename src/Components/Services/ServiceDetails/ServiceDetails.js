@@ -16,27 +16,14 @@ const ServiceDetails = () => {
 
     // for single details load 
     useEffect(()=>{
-        fetch(`http://localhost:5000/services/${id}`)
+        fetch(`https://hidden-wave-70818.herokuapp.com/services/${id}`)
         .then(res=>res.json())
         .then(data=>setService(data));
     },[]);
 
 
 
-//     const { register, handleSubmit,reset } = useForm();
-//   const onSubmit = data =>{
-//       console.log(data);
 
-//       axios.post('http://localhost:5000/orders',data)
-//     .then(res=>{
-//         console.log(res);
-//         // if(res.data.insertedId){
-//         //     alert('Inserted Successfully');
-//         //     reset();
-//         // }
-//     })
-
-//  }
 
    
  
@@ -45,7 +32,7 @@ const ServiceDetails = () => {
     e.preventDefault();
     const phone = phoneRef.current.value;
     const address = addressRef.current.value;
-    fetch("http://localhost:5000/orders", {
+    fetch("https://hidden-wave-70818.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",

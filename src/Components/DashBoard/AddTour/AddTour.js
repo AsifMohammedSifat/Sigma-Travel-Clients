@@ -7,25 +7,8 @@ const AddTour = () => {
     const { register, handleSubmit,reset } = useForm();
   const onSubmit = data =>{
       
-    // console.log(data);
-
-    // send data to the server
-    // fetch('http://localhost:5000/addtour',{
-    //     method:'post',
-    //     headers:{
-    //         'content-type':'application/json'
-    //     },
-    //     body:JSON.stringify(data)
-    // })
-    // .then(res=>res.json())
-    // .then(data=>{
-    //     console.log(data);
-    //     if(data.data.insertedId){
-    //         alert('Inserted Successfully');
-    //         reset();
-    //     }
-    //      })
-      axios.post('http://localhost:5000/addtour',data)
+   
+      axios.post('https://hidden-wave-70818.herokuapp.com/addtour',data)
     .then(res=>{
         console.log(res);
         if(res.data.insertedId){

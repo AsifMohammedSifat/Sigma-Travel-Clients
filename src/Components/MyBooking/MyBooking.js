@@ -12,7 +12,7 @@ const MyBooking= () => {
   useEffect(() => {
     document.title = "My Bookings";
     window.scrollTo(0, 0);
-    fetch(`http://localhost:5000/allBookings/${user.email}`)
+    fetch(`https://hidden-wave-70818.herokuapp.com/allBookings/${user.email}`)
       .then((res) => res.json())
       .then((data) => {
         setOrderData(data);
