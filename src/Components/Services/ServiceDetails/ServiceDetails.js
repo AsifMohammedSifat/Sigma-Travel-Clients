@@ -78,13 +78,22 @@ const ServiceDetails = () => {
                      <div className="add-service  h-100 ">
                             <form className="sticky-top" onSubmit={handleSubmit}>
 
-                                <input placeholder="Name" value={service._id}  className="rounded-3 border-dark  p-2" disabled/>
+                              <span className="text-dark text-center fw-bold">Order Id</span>
+                                <input placeholder="order_id" value={service._id}  className="rounded-3 border-dark  p-2" disabled/>
                                 
-                                <input  placeholder="Name" value={service.name}  className="rounded-3 border-dark  p-2" disabled/>
+                                <span className="text-dark text-center fw-bold">Destination Name</span>
+                                 <input  placeholder="Service Name" value={service.name}  className="rounded-3 border-dark  p-2" disabled/>
                                 
-                                <input placeholder="Email"  value={user.email} className="rounded-3 border-dark  p-2" disabled/>
+                                 <span className="text-dark text-center fw-bold">Your Name</span>
+                                 <input  placeholder="Name" value={user.displayName}  className="rounded-3 border-dark  p-2" disabled/>
+                                
+                                 <span className="text-dark text-center fw-bold">Email</span>
+                                  <input placeholder="Email"  value={user.email} className="rounded-3 border-dark  p-2" disabled/>
 
-                                <textarea placeholder="Address" ref={addressRef} className="rounded-3 border-dark  p-2"/>
+                                  <span className="text-dark text-center fw-bold">Address</span>
+                              <textarea placeholder="Address" ref={addressRef} className="rounded-3 border-dark  p-2"/>
+                              <span className="text-dark text-center fw-bold">Phone No</span>
+                              
                                 <input type="number" ref={phoneRef}  placeholder="Phone No" className="rounded-3 border-dark  p-2"/>
                                 
                                 <input className="bg-warning border-0 fw-bold p-2 rounded-3 text-dark" type="submit" value="Book Now" />

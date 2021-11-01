@@ -17,7 +17,7 @@ const TableRow = (props) => {
   const handleDelete = () => {
     const x = window.confirm("Do you want to cancel your booking?");
     if (x) {
-      fetch(`https://fast-gorge-50252.herokuapp.com/booked`, {
+      fetch("http://localhost:5000/booked", {
         method: "DELETE",
         headers: {
           "content-type": "application/json",
@@ -34,7 +34,7 @@ const TableRow = (props) => {
     if (status === nowStatus) return;
     const x = window.confirm("Do you want to change the status?");
     if (x) {
-      fetch(`https://fast-gorge-50252.herokuapp.com/booked`, {
+      fetch("http://localhost:5000/booked", {
         method: "PUT",
         headers: {
           "content-type": "application/json",
@@ -76,8 +76,6 @@ const TableRow = (props) => {
                 <button
                   onClick={() => handleStatus("PENDING")}
                   className="dropdown-item"
-                  style={{backgroundColor:'red',text:'white'}}
-               
                 >
                   PENDING
                 </button>
@@ -85,8 +83,7 @@ const TableRow = (props) => {
               <li>
                 <button
                   onClick={() => handleStatus("APPROVED")}
-                  className="dropdown-item "
-                  style={{backgroundColor:'green',text:'white'}}
+                  className="dropdown-item"
                 >
                   APPROVED
                 </button>
@@ -97,10 +94,10 @@ const TableRow = (props) => {
       ) : (
         <td className={status}>{status}</td>
       )}
-      <td className="text-center">
-        <button className="rounded-3 bg-dark fs-5 text-danger p-2" onClick={handleDelete}>
-        <i class="fas fa-trash-alt"></i>
-        </button>
+      <td>
+      <button className="rounded-3 bg-dark fs-5 text-danger p-2" onClick={handleDelete}>
+      <i class="fas fa-trash-alt"></i>
+      </button>
       </td>
     </tr>
   );

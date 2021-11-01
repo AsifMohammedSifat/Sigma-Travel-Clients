@@ -13,6 +13,7 @@ const SingleService = (props) => {
    
     return (
        <div>
+           
             {/* data pass by card  */}
             <div className="card details-card card-style h-100">
                 {/* card img  */}

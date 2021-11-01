@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import TableRow from "../TableRow/TableRow";
+import AllBookTable from "./AllBookTable/AllBookTable";
 
 const AllBookings = () => {
   const [orderData, setOrderData] = useState([]);
@@ -20,10 +21,10 @@ const AllBookings = () => {
       });
   }, []);
   return (
-    <div className="my-bookings-container container pb-5 my-5">
+    <div className="my-bookings-container container pb-5">
       {loading ? (
         <div className="spinner d-flex align-items-center justify-content-center">
-          <button className="btn btn-primary" type="button" disabled>
+          <button className="btn btn-warning text-white" type="button" disabled>
             <span
               className="spinner-border spinner-border-sm"
               role="status"
@@ -47,18 +48,16 @@ const AllBookings = () => {
                   <th scope="col">Destination</th>
                   <th scope="col">Duration</th>
                   <th scope="col">Price</th>
-                  <th scope="col">Status</th>
-                  <th scope="col">Cancel</th>
                 </tr>
               </thead>
               <tbody>
                 {orderData.map((order) => (
-                  <TableRow
+                  <AllBookTable
                     key={order._id}
                     data={order}
                     edit={true}
                     deleteOrder={deleteOrder}
-                  ></TableRow>
+                  ></AllBookTable>
                 ))}
               </tbody>
             </table>
