@@ -1,0 +1,49 @@
+[{
+    "id": 1,
+    "name": "Aracaju",
+    "price":"1200",
+    "days":"7",
+    "nights":"15",
+    "description": "Aracaju, the capital city in the state of Sergipe, has beautiful beaches where visitors will be able to rest or have fun surrounded by beautiful sand dunes and coconut trees.Founded in 1855, the city was Brazil’s first planned state capital. Known for its beautiful beaches and catamaran rides, Aracaju’s urban planning was done in such a way that its streets were designed to end at the Sergipe River, which flows through the city and into the sea.Atalaia Waterfront, the main tourist site in the city, is six-kilometers long and contains a large leisure complex, hotels, and restaurants. There is also an Oceanarium there, which is home to several Brazilian marine wildlife species. The Oceanarium is administered by the Tamar Project, a global reference in the protection of sea turtles in Brazil. While on the river banks, take the time to learn about the history of the capital. You can start with the Emperor’s Bridge (Ponte do Imperador), the path Emperor Dom Pedro II would take to come to the city when visiting the province. In the Historic Center, you will be able to see churches, monuments, museums, as well as shopping malls, crafts markets, and regional food centers.",
+    "img": "https://i2.wp.com/visitbrasil.com/wp-content/uploads/2021/06/GettyImages-1136028055-1.jpg?fit=1024%2C682&ssl=1"
+}, {
+    "id": 2,
+    "name": "Boa Vista",
+    "price":"700",
+    "days":"5",
+    "nights":"10",
+    "description": "Boa Vista is a planned city that contains wide streets and numerous attractions. The capital city in the state of Roraima will charm tourists with local hospitality and a unique atmosphere.category of State in 1988. Located on the right bank of Rio Branco, the main river in the state, the capital had its start in the village of Nossa Senhora do Carmo. The main evidence of the city’s past, with neoclassical-style buildings that remind visitors of its heyday, lie in the areas close to the river.  There is strong indigenous influence in local cuisine. Dishes such as damorida, a fish-based broth, paçoca with bananas, roast beef that is ground and then mixed with flour, and bodó fish pie, a baked dish made by mixing armored catfish meat and egg whites, really tickle the visitors’ taste buds. Spices such as pepper and tucupi, a sauce extracted from wild cassava roots and used in several Amazonian recipes, are also very popular in local dishes.",
+    "img": "https://i0.wp.com/visitbrasil.com/wp-content/uploads/2021/06/NO_Boavista0034-1.jpg?fit=1024%2C682&ssl=1"
+}, {
+    "id": 3,
+    "name": "Búzios",
+    "price":"1500",
+    "days":"3",
+    "nights":"12",
+    "description": "The city center has grown a lot over the years, but it is the traditional Rua das Pedras (Stone Street) that stands out. There are several local bars as well as art galleries, sophisticated restaurants, high-end boutiques, and even a cinema named after the famous French actress.Búzios is renowned for its lively nightlife and exquisite cuisine. Night Clubs on Rua das Pedras and on Bardot Waterfront Promenade are open till dawn, especially in the summer and during holidays. Local restaurants are influenced by international cuisine, offering visitors a selection of different flavors. There are more than 20 beaches around the city, so there is certainly something for everyone. Some of the most popular among them are the beaches of Geribá (a favorite among surfers), Ferradura (good location for freediving), Armação, Azeda, and João Fernandes.  There are over 200 hotels and inns in the city. And all the local infrastructure blends carefully and harmoniously with the gorgeous local beaches. Everyone who visits Búzios falls in love with it. And it won’t be different with you. It is simply impossible not to be amazed by such a charming city with such stunning beaches.",
+    "img": "https://i2.wp.com/visitbrasil.com/wp-content/uploads/2021/08/Buzios-RJ-Visit-Brasil-5-min.jpg?fit=1024%2C683&ssl=1"
+}, {
+    "id": 4,
+    "name": "Caldas Novas",
+    "price":"1500",
+    "days":"5",
+    "nights":"15",
+    "description": " Caldas Novas is the city that contains the most hotels in the Midwest region, and many of them have their own water park. However, there are also thermal parks in the region that are open to the public. Caldas Novas is located in a region that is home to one of the largest hydrothermal parks in the world. The region's water springs, with temperatures ranging between 36 and 70 degrees celsius, are the main reason for the citys popularity .The local thermal waters are considered therapeutic, which attracts around a million visitors each year.A curious fact: the local warm waters come from local rainfall. The water is absorbed through cracks between the rocks and reaches depths of over a thousand meters, where it gets heated and returns to the surface through a system of fractures (deep fissures in the rocks).",
+    "img": "https://i0.wp.com/visitbrasil.com/wp-content/uploads/2021/06/CO_CaldasRioQuente1335.jpg?fit=1024%2C682&ssl=1"
+}, {
+    "id": 5,
+    "name": "Brasília",
+    "price":"500",
+    "days":"1",
+    "nights":"2",
+    "description": "Brasília was planned a little over 60 years ago, and its beauty lies in its details, designs, and colors.Brasilia is the 3rd capital city of Brazil, following the cities of Salvador and Rio de Janeiro consecutively. The city was inaugurated in 1960 by president Juscelino Kubitschek. The new capital was an audacious project and became the symbol of urban planning and modern architecture in the 20th century. The idea of ​​building a new capital was to populate the center of the country and also to keep the capital away from possible attacks from foreign ships on the coast. Home to more than 3 million people, Brasília’s basic design, called Pilot Plan (Plano Piloto), was conceived by urban planner Lúcio Costa and architect Oscar Niemeyer. The design resembles the shape of an airplane and has been added to Unesco’s World Cultural Heritage List. It is the city with the largest area on the Heritage List in the world.",
+    "img": "https://i1.wp.com/visitbrasil.com/wp-content/uploads/2021/06/CO_Brasilia2019-1.jpg?fit=1024%2C684&ssl=1"
+}, {
+    "id": 6,
+    "name": "Bonito",
+    "price":"500",
+    "days":"1",
+    "nights":"5",
+    "description": "Bonito is a true paradise where visitors can experience rivers with crystal-clear waters and the contrast of the colorful fish against the intense green backdrop of the native forests.  Bonito, a city in the state of Mato Grosso do Sul, is one of the main ecotourism and adventure tourism destinations in Brazil. The name of the place, which means beautiful, totally lives up to its reputation. Located 300 km from the state capital, in Serra da Bodoquena, the city is very easy to get to.Local attractions such as the Lago Azul Cave (blue lake cave), Mimoso Cave, the Natural Aquarium, and the Sucuri River (anaconda river) stand out for their incredible beauty. In addition, visitors will have a lot of contact with nature as well as peace and quiet. Available activities in the region include rafting, floating (snorkeling) in small natural lakes, tree climbing, visiting waterfalls and caves, hiking local trails, inner-tubing, and scuba diving.",
+    "img": "https://i0.wp.com/visitbrasil.com/wp-content/uploads/2021/06/CO_Bonito0176.jpg?fit=1024%2C682&ssl=1"
+}]

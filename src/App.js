@@ -11,6 +11,8 @@ import Login from './Components/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
+import ServiceDetails from './Components/Services/ServiceDetails/ServiceDetails';
+import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -37,11 +39,20 @@ function App() {
           <Route path="/allbooking">
             <AllBooking></AllBooking>
           </Route>
+          <Route exact path="/booking/allbooking">
+            <AllBooking></AllBooking>
+          </Route>
 
           {/* dashboard ---add tour  */}
           <Route path="/addtour">
             <AddTour></AddTour>
           </Route>
+
+          {/* details  */}
+          <PrivateRoute path="/booking/:id">
+            <ServiceDetails></ServiceDetails>
+          </PrivateRoute>
+
           {/* dashboard ---manage all booking  */}
           <Route path="/managebooking">
             <ManageAllBooking></ManageAllBooking>

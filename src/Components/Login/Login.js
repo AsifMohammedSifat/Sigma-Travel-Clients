@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import useAuth from '../../hooks/useAuth';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogle, faFacebookF} from '@fortawesome/free-brands-svg-icons';
+import { faGoogle} from '@fortawesome/free-brands-svg-icons';
+import { useHistory, useLocation } from 'react-router';
 
 
 
 const Login = () => {
      const googleIcon = <FontAwesomeIcon icon={faGoogle} />
-     const facebookIcon = <FontAwesomeIcon icon={faFacebookF} />
+
 
     const {
         user,
@@ -28,6 +29,18 @@ const Login = () => {
         toggleLogIn,
         logOut
     }=useAuth();
+
+    // redirect
+    const location=useLocation();
+    const history=useHistory();
+   
+     // Redirects to home or previous location 
+  const redirectUrl = location.state?.from?.pathname || "/home";
+  useEffect(() => {
+    if (user.email) {
+      history.push(redirectUrl);
+    }
+  }, [user]);
    return (
     <div className="container  p-5 my-5">
 

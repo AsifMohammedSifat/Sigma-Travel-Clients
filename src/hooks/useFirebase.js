@@ -7,13 +7,13 @@ import {
     onAuthStateChanged,
     signInWithPopup,
     updateProfile,
-    GithubAuthProvider,
     signOut
 } from "@firebase/auth";
 import {
     useEffect,
     useState
 } from "react";
+import { useHistory, useLocation } from "react-router";
 import initializeAuthentication from '../Firebase/firebase.init';
 
 initializeAuthentication();
@@ -33,7 +33,6 @@ const useFirebase = () => {
     const auth = new getAuth();
     const googleProvider = new GoogleAuthProvider();
 
-    const githubProvider = new GithubAuthProvider();
     // google sign in 
     const handleGoogleSignIN = e => {
         e.preventDefault();
@@ -41,7 +40,7 @@ const useFirebase = () => {
             .then((result) => {
                 const user = result.user;
                 setUser(user);
-
+                
                 // ...
             }).catch((error) => {
                 // Handle Errors here.

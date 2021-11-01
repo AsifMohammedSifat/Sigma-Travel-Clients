@@ -2,7 +2,7 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div>
+        <div className="text-center mx-auto">
             <div style = { {marginTop: "90px" } }>
                 {/* not found text and also gif added  */}
                 <h1 className="text-danger w-50 m-auto rounded-3 mt-5 bg-warning">Sorry!!No Result Found</h1>

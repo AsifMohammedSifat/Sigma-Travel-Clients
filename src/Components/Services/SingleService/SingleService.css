@@ -1,16 +1,3 @@
-.add-service form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.add-service form input,textarea{
-    width:60%;
-    margin:10px;
-
-}
-
 /*  card dedsign  */
 .card-style{
     background-color: #faebd7;

@@ -23,7 +23,7 @@ const Banner = () => {
                     <div className="carousel-caption text-white  d-none d-md-block">
                         <h2 className="brand-name text-white  ">Sigma Travel</h2>
                         <p>Lets make a wordwide tour with us.Mount Fuji is world-renowned for its impressive cone shape.</p>
-                        <button className="bg-warning fw-bold rounded-3 border-0 p-2 text-dark">View Tour</button>
+                        <button  className="bg-warning fw-bold rounded-3 border-0 p-2 text-dark">View Tour</button>
                     </div>
                     </div>
 
